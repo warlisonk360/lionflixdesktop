@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DsLionFlix" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DsLionFlix" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DsLionFlix" msprop:Generator_UserDSName="DsLionFlix">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="episodios" msprop:Generator_TableClassName="episodiosDataTable" msprop:Generator_TableVarName="tableepisodios" msprop:Generator_TablePropName="episodios" msprop:Generator_RowDeletingName="episodiosRowDeleting" msprop:Generator_RowChangingName="episodiosRowChanging" msprop:Generator_RowEvHandlerName="episodiosRowChangeEventHandler" msprop:Generator_RowDeletedName="episodiosRowDeleted" msprop:Generator_UserTableName="episodios" msprop:Generator_RowChangedName="episodiosRowChanged" msprop:Generator_RowEvArgName="episodiosRowChangeEvent" msprop:Generator_RowClassName="episodiosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:string" />
+              <xs:element name="Nome" msprop:Generator_ColumnVarNameInTable="columnNome" msprop:Generator_ColumnPropNameInRow="Nome" msprop:Generator_ColumnPropNameInTable="NomeColumn" msprop:Generator_UserColumnName="Nome" type="xs:string" minOccurs="0" />
+              <xs:element name="Link" msprop:Generator_ColumnVarNameInTable="columnLink" msprop:Generator_ColumnPropNameInRow="Link" msprop:Generator_ColumnPropNameInTable="LinkColumn" msprop:Generator_UserColumnName="Link" type="xs:string" minOccurs="0" />
+              <xs:element name="Temporadas" msprop:Generator_ColumnVarNameInTable="columnTemporadas" msprop:Generator_ColumnPropNameInRow="Temporadas" msprop:Generator_ColumnPropNameInTable="TemporadasColumn" msprop:Generator_UserColumnName="Temporadas" type="xs:string" minOccurs="0" />
+              <xs:element name="Ep" msprop:Generator_ColumnVarNameInTable="columnEp" msprop:Generator_ColumnPropNameInRow="Ep" msprop:Generator_ColumnPropNameInTable="EpColumn" msprop:Generator_UserColumnName="Ep" type="xs:string" minOccurs="0" />
+              <xs:element name="Nome_Ep" msprop:Generator_ColumnVarNameInTable="columnNome_Ep" msprop:Generator_ColumnPropNameInRow="Nome_Ep" msprop:Generator_ColumnPropNameInTable="Nome_EpColumn" msprop:Generator_UserColumnName="Nome_Ep" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="info" msprop:Generator_TableClassName="infoDataTable" msprop:Generator_TableVarName="tableinfo" msprop:Generator_TablePropName="info" msprop:Generator_RowDeletingName="infoRowDeleting" msprop:Generator_RowChangingName="infoRowChanging" msprop:Generator_RowEvHandlerName="infoRowChangeEventHandler" msprop:Generator_RowDeletedName="infoRowDeleted" msprop:Generator_UserTableName="info" msprop:Generator_RowChangedName="infoRowChanged" msprop:Generator_RowEvArgName="infoRowChangeEvent" msprop:Generator_RowClassName="infoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:string" />
+              <xs:element name="Nome" msprop:Generator_ColumnVarNameInTable="columnNome" msprop:Generator_ColumnPropNameInRow="Nome" msprop:Generator_ColumnPropNameInTable="NomeColumn" msprop:Generator_UserColumnName="Nome" type="xs:string" minOccurs="0" />
+              <xs:element name="Idade" msprop:Generator_ColumnVarNameInTable="columnIdade" msprop:Generator_ColumnPropNameInRow="Idade" msprop:Generator_ColumnPropNameInTable="IdadeColumn" msprop:Generator_UserColumnName="Idade" type="xs:string" minOccurs="0" />
+              <xs:element name="Genero" msprop:Generator_ColumnVarNameInTable="columnGenero" msprop:Generator_ColumnPropNameInRow="Genero" msprop:Generator_ColumnPropNameInTable="GeneroColumn" msprop:Generator_UserColumnName="Genero" type="xs:string" minOccurs="0" />
+              <xs:element name="Ano" msprop:Generator_ColumnVarNameInTable="columnAno" msprop:Generator_ColumnPropNameInRow="Ano" msprop:Generator_ColumnPropNameInTable="AnoColumn" msprop:Generator_UserColumnName="Ano" type="xs:string" minOccurs="0" />
+              <xs:element name="foto" msprop:Generator_ColumnVarNameInTable="columnfoto" msprop:Generator_ColumnPropNameInRow="foto" msprop:Generator_ColumnPropNameInTable="fotoColumn" msprop:Generator_UserColumnName="foto" type="xs:string" minOccurs="0" />
+              <xs:element name="Total_Temporadas" msprop:Generator_ColumnVarNameInTable="columnTotal_Temporadas" msprop:Generator_ColumnPropNameInRow="Total_Temporadas" msprop:Generator_ColumnPropNameInTable="Total_TemporadasColumn" msprop:Generator_UserColumnName="Total_Temporadas" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="links" msprop:Generator_TableClassName="linksDataTable" msprop:Generator_TableVarName="tablelinks" msprop:Generator_TablePropName="links" msprop:Generator_RowDeletingName="linksRowDeleting" msprop:Generator_RowChangingName="linksRowChanging" msprop:Generator_RowEvHandlerName="linksRowChangeEventHandler" msprop:Generator_RowDeletedName="linksRowDeleted" msprop:Generator_UserTableName="links" msprop:Generator_RowChangedName="linksRowChanged" msprop:Generator_RowEvArgName="linksRowChangeEvent" msprop:Generator_RowClassName="linksRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:string" />
+              <xs:element name="NameFilme" msprop:Generator_ColumnVarNameInTable="columnNameFilme" msprop:Generator_ColumnPropNameInRow="NameFilme" msprop:Generator_ColumnPropNameInTable="NameFilmeColumn" msprop:Generator_UserColumnName="NameFilme" type="xs:string" minOccurs="0" />
+              <xs:element name="LinkFilme" msprop:Generator_ColumnVarNameInTable="columnLinkFilme" msprop:Generator_ColumnPropNameInRow="LinkFilme" msprop:Generator_ColumnPropNameInTable="LinkFilmeColumn" msprop:Generator_UserColumnName="LinkFilme" type="xs:string" minOccurs="0" />
+              <xs:element name="Genero" msprop:Generator_ColumnVarNameInTable="columnGenero" msprop:Generator_ColumnPropNameInRow="Genero" msprop:Generator_ColumnPropNameInTable="GeneroColumn" msprop:Generator_UserColumnName="Genero" type="xs:string" minOccurs="0" />
+              <xs:element name="Idade" msprop:Generator_ColumnVarNameInTable="columnIdade" msprop:Generator_ColumnPropNameInRow="Idade" msprop:Generator_ColumnPropNameInTable="IdadeColumn" msprop:Generator_UserColumnName="Idade" type="xs:string" minOccurs="0" />
+              <xs:element name="Ano" msprop:Generator_ColumnVarNameInTable="columnAno" msprop:Generator_ColumnPropNameInRow="Ano" msprop:Generator_ColumnPropNameInTable="AnoColumn" msprop:Generator_UserColumnName="Ano" type="xs:string" minOccurs="0" />
+              <xs:element name="Legenda" msprop:Generator_ColumnVarNameInTable="columnLegenda" msprop:Generator_ColumnPropNameInRow="Legenda" msprop:Generator_ColumnPropNameInTable="LegendaColumn" msprop:Generator_UserColumnName="Legenda" type="xs:string" minOccurs="0" />
+              <xs:element name="foto" msprop:Generator_ColumnVarNameInTable="columnfoto" msprop:Generator_ColumnPropNameInRow="foto" msprop:Generator_ColumnPropNameInTable="fotoColumn" msprop:Generator_UserColumnName="foto" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="upgrade" msprop:Generator_TableClassName="upgradeDataTable" msprop:Generator_TableVarName="tableupgrade" msprop:Generator_TablePropName="upgrade" msprop:Generator_RowDeletingName="upgradeRowDeleting" msprop:Generator_RowChangingName="upgradeRowChanging" msprop:Generator_RowEvHandlerName="upgradeRowChangeEventHandler" msprop:Generator_RowDeletedName="upgradeRowDeleted" msprop:Generator_UserTableName="upgrade" msprop:Generator_RowChangedName="upgradeRowChanged" msprop:Generator_RowEvArgName="upgradeRowChangeEvent" msprop:Generator_RowClassName="upgradeRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Ultima_Versao" msprop:Generator_ColumnVarNameInTable="columnUltima_Versao" msprop:Generator_ColumnPropNameInRow="Ultima_Versao" msprop:Generator_ColumnPropNameInTable="Ultima_VersaoColumn" msprop:Generator_UserColumnName="Ultima_Versao" type="xs:string" minOccurs="0" />
+              <xs:element name="Versao_programa" msprop:Generator_ColumnVarNameInTable="columnVersao_programa" msprop:Generator_ColumnPropNameInRow="Versao_programa" msprop:Generator_ColumnPropNameInTable="Versao_programaColumn" msprop:Generator_UserColumnName="Versao_programa" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:episodios" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="info_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:info" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="links_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:links" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
