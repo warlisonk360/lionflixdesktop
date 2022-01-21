@@ -96,7 +96,7 @@ namespace Lionflix.Info
                     MO_Idade = links[i].Idade;
                     MO_Ano = links[i].Ano;
                     MO_Legenda = links[i].Legenda;
-                    MO_img_p = "https://lionflix.xyz/img/filmes/img_p/" + links[i].foto;
+                    MO_img_p = "https://lionflixAPI.videirastore.com.br/img/filmes/img_p/" + links[i].foto;
 
                     string address = MO_img_p;
                     string file = desktop + "/lionflix/img/" + "\\" + links[i].foto;
@@ -166,7 +166,7 @@ namespace Lionflix.Info
                     INFO_Genero = info[i].Genero;
                     INFO_Idade = info[i].Idade;
                     INFO_Ano = info[i].Ano;
-                    INFO_img_p = "https://lionflix.xyz/img/series/img_p/" + info[i].foto;
+                    INFO_img_p = "https://lionflixAPI.videirastore.com.br/img/series/img_p/" + info[i].foto;
                     INFO_Total = info[i].Total_Temporadas;
 
                     string address = INFO_img_p;
